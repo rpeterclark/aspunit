@@ -1,7 +1,7 @@
 {
 	"name": "aspunit",
 	"description": "A Classic ASP Unit Testing Framework",
-	"version": "0.1.0",
+	"version": "0.1.0-1",
 	"homepage": "https://github.com/rpeterclark/aspunit",
 	"author": {
 		"name": "R. Peter Clark",

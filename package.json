@@ -1,33 +1,33 @@
 {
-	"name": "aspunit",
-	"description": "A Classic ASP Unit Testing Framework",
-	"version": "0.1.0-1",
-	"homepage": "https://github.com/rpeterclark/aspunit",
-	"author": {
-		"name": "R. Peter Clark",
-		"email": "rpeterclark@gmail.com",
-		"url": "http://www.rpeterclark.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/rpeterclark/aspunit.git"
-	},
-	"bugs": {
-		"url": "https://github.com/rpeterclark/aspunit/issues"
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "https://github.com/rpeterclark/aspunit/blob/master/LICENSE-MIT"
-		}
-	],
-	"scripts": {
-		"test": "grunt test"
-	},
-	"devDependencies": {
-		"grunt": "~0.4.1",
-		"grunt-contrib-jshint": "~0.6.4",
-		"grunt-iisexpress": "~0.3.1",
-		"grunt-aspunit": "~0.1.0"
-	}
+  "name": "aspunit",
+  "description": "A Classic ASP Unit Testing Framework",
+  "version": "0.1.1-0",
+  "homepage": "https://github.com/rpeterclark/aspunit",
+  "author": {
+    "name": "R. Peter Clark",
+    "email": "rpeterclark@gmail.com",
+    "url": "http://www.rpeterclark.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rpeterclark/aspunit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rpeterclark/aspunit/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rpeterclark/aspunit/blob/master/LICENSE-MIT"
+    }
+  ],
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-iisexpress": "~0.3.1",
+    "grunt-aspunit": "~0.1.0"
+  }
 }

@@ -27,7 +27,7 @@
 	"devDependencies": {
 		"grunt": "~0.4.1",
 		"grunt-contrib-jshint": "~0.6.4",
-		"grunt-iisexpress": "~0.1.0-2",
+		"grunt-iisexpress": "~0.3.1",
 		"grunt-aspunit": "~0.1.0"
 	}
 }

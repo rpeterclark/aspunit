@@ -5,8 +5,8 @@
 
 <%
 	' Register pages to test
-	Call ASPUnit.AddPage("/Example/TestAccount.asp")
-	Call ASPUnit.AddPage("/Example/TestAccountTransferService.asp")
+	Call ASPUnit.AddPage("TestAccount.asp")
+	Call ASPUnit.AddPage("TestAccountTransferService.asp")
 
 	' Execute tests
 	Call ASPUnit.Run()

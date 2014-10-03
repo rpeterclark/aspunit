@@ -98,11 +98,13 @@
 		End Function
 
 		Private Function JSONNumberPair(strName, varValue)
-			JSONNumberPair = JSONString(strName) & ":" & varValue
+			JSONNumberPair = JSONString(strName) & ":" & (FormatNumber(varValue, 0, -1, -1, -1))
 		End Function
 
 		Private Function JSONBooleanPair(strName, blnValue)
-			JSONBooleanPair = JSONString(strName) & ":" & LCase(blnValue)
+			Dim output : output = "true"
+			If Not blnValue Then output = "false"
+			JSONBooleanPair = JSONString(strName) & ":" & output
 		End Function
 
 		Private Function JSONStringEscape(strValue)

@@ -359,7 +359,7 @@
 							$(document).on('click', '.action-hide-passed', function(e) {
 								e.preventDefault();
 
-								var $el = $(e.target);
+								var $el = $(e.currentTarget);
 
 								if ($el.hasClass('active')) {
 									$el.removeClass('active').html('<i class="glyphicon glyphicon-remove-sign"></i> Hide Passed Tests</a>');
